@@ -1,0 +1,13 @@
+site_name: DevOps Operations Handbook
+site_description: Учебная документация по проверке и публикации изменений
+site_author: Рамазанов Мухамед Хаирбегович
+site_url: https://muhamed201.github.io/devops-docs/
+repo_name: Muhamed201/devops-docs
+repo_url: https://github.com/Muhamed201/devops-docs
+theme:
+  name: mkdocs
+  locale: ru
+nav:
+  - Главная: index.md
+  - Эксплуатация: runbook.md
+  - Журнал инцидентов: incidents.md
