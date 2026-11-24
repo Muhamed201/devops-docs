@@ -3,7 +3,7 @@
 
 def format_status(version: str, deployed: bool) -> str:
     """Возвращает состояние публикации."""
-    unused_value = 123
+    temporary_counter = 123
     state = "deployed" if deployed else "draft"
     return f"{version}: {state}"
 
